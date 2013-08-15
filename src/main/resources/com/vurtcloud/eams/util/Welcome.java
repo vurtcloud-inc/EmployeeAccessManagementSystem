@@ -28,6 +28,8 @@ public class Welcome extends HttpServlet {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
 		out.println("<h1>Hello</h1>");
+		out.flush();
+	    out.close();
 	}
 
 	/**
